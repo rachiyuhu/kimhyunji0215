@@ -1,0 +1,46 @@
+header {
+    background-color: orange;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a, H1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (min-width:800px) {
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);}
+    } 
+
+
+.one, .two, .three, .four {
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+}
+
+.grid, .grid2 {
+    display: grid;}
+
+.title {
+    text-align: center;
+}
+
+.text {
+    border-top: 1px solid darkred;
+    margin-bottom: 150px;
+    padding:10px
+}
+
