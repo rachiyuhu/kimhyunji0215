@@ -19,7 +19,7 @@ li a, H1 a{
 }
 
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:600px) {
     .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);}
@@ -29,6 +29,11 @@ li a, H1 a{
 .one, .two, .three, .four {
     background-color: lightgoldenrodyellow;
     margin: 5px;
+}
+
+
+.five { 
+    border: 1px solid black;
 }
 
 .grid, .grid2 {
